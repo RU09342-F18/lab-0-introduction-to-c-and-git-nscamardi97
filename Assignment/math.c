@@ -1,10 +1,10 @@
 int math(int num1, int num2, char Operator);
 {
-    char Operator;
-    int num1, num2;
-    int output;
+    char Operator;  // Select operation to perform (ie. add, subtract, OR, etc.)
+    int num1, num2; // Operands
+    int output;     // Result of operation performed on num1 and num2
     
-    switch(Operator)
+    switch(Operator)    //Switch statement with various Operators as conditions
     {
         case '+':
             output = num1 + num2;
@@ -51,7 +51,7 @@ int math(int num1, int num2, char Operator);
             break;
             
         default:
-            return 0;
+            return 0;   // return 0 if no operator or if operator is invalid
     }
 
 }
