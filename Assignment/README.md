@@ -11,3 +11,6 @@ In order to use this program, the user will have to input values which get assig
 
 # Description of Code
 The math.c file that was implemented has two integer inputs, num1 and num2, one character input, Operator, and one output. A switch statement was used in order to implement different behavior based on the operator input. Each case performs the desired arithmetic or logical operation on the integers input based on the selected operator. The default case is to return 0.
+
+# Libraries
+This program utilizes the math.h library.
