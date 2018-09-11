@@ -1,7 +1,7 @@
 # Lab 0: Calculator Program
-- Nick Scamardi
-- Embedded Systems Section 3
-- September 10, 2018
+Nick Scamardi                                                                                                                              
+Embedded Systems Section 3                                                                                                                  
+September 10, 2018
 
 # Functionality
 The main functionality of this program is to perform various operations on 1-2 integers, similiar to that of a calculator. The functions supported by the program include add, subtract, multiply, divide, modulus, shift left, shift right, bitwise ADD, bitwise OR, bitwise XOR, and bitwise inverse on number 1.
